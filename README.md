@@ -2,7 +2,7 @@
 21 dias onde serei desafiado pela RocketSeat à desenvolver mini projetos, sendo um projeto por dia
 
 
-## Desafios - parte 1
+## Desafios [ parte 1 ]
 
 | Projeto | Descrição |
 | --- | --- |
