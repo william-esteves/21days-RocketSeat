@@ -5,9 +5,9 @@
 
 ## Desafios (parte 1)
 
-| Projeto | Descrição |
-| --- | --- |
-| Dia 01  | Criar um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código |
+| Projeto | Descrição | Done |
+| --- | --- | --- |
+| Dia 01  | Criar um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código | :white_check_mark:|
 | Dia 02  | Fazer um Hello World! customizado |
 | Dia 03  | Criar um botão animado
 | Dia 04  | Criar uma calculadora
