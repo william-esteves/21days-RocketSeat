@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Monoton&display=swap");
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  min-width: 30rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+  min-height: 90vh;
+  display: grid;
+  place-content: center;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  height: 5vh;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100vw;
+  background-color: #212121;
+  color: #fff;
+}
+
+.top {
+  border-radius: 0.3rem 0.3rem 0 0;
+  background-color: #8257e6;
+  padding: 2rem;
+}
+
+h1 {
+  color: #fff;
+  padding-bottom: 0.8rem;
+}
+
+.calc-buttons {
+  background-color: #8257e6;
+  border-radius: 0 0 0.3rem 0.3rem;
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem 0.5rem;
+  padding: 2rem;
+}
+
+#result {
+  background-color: #fff;
+  height: 8vh;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 6rem;
+  width: 42rem;
+  overflow: hidden;
+}
+
+button {
+  background-color: #212121;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #414141;
+}
+
+.rowspan {
+  grid-column: 1/3;
+  grid-row: 5;
+  width: auto;
+}
+
+.colspan {
+  grid-row: 3/5;
+  grid-column: 4;
+  height: auto;
+}
+
+footer {
+  height: 5vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #212121;
+  color: #fff;
+}
+
+h4,
+footer p {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 0.5rem;
+  font-family: "Dela Gothic One", cursive;
+  color: #8257e6;
+}
+
+@media screen and (max-width: 568px) {
+  .calc-buttons {
+    padding: 1rem;
+  }
+  button {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  #result {
+    background-color: #fff;
+    height: 6vh;
+    font-size: 3rem;
+    width: 26rem;
+  }
+
+  .top {
+    padding: 1rem;
+  }
+}

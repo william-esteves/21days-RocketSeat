@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Simples</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h4>day #04 </h4>
+    <h4>21 dias RocketSeat</h4>
+  </header>
+
+  <div class="wrapper">
+    <div class="top">
+      <h1>Calculadora Simples </h1>
+      <p id="result"></p>
+    </div>
+
+    <div class="calc-buttons">
+      <button onclick="clean('')">AC</button>
+      <button onclick="backSpace('')">&#129040</button>
+      <button onclick="insert('/')">/</button>
+      <button onclick="insert('*')">X</button>
+
+      <button onclick="insert('7')">7</button>
+      <button onclick="insert('8')">8</button>
+      <button onclick="insert('9')">9</button>
+      <button onclick="insert('-')">-</button>
+
+      <button onclick="insert('4')">4</button>
+      <button onclick="insert('5')">5</button>
+      <button onclick="insert('6')">6</button>
+      <button onclick="insert('+')" class="colspan">+</button>
+
+      <button onclick="insert('1')">1</button>
+      <button onclick="insert('2')">2</button>
+      <button onclick="insert('3')">3</button>
+      <button onclick="insert('.')">.</button>
+      <button onclick="calc()">=</button>
+      <button onclick="insert('0')" class="rowspan">0</button>
+    </div>
+  </div>
+  <footer>
+    <p>desenvolvido por <a href="https://www.linkedin.com/in/williamesteves/">William Esteves</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
