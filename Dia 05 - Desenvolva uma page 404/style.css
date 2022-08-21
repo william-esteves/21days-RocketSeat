@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=VT323&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "VT323", monospace;
+  align-items: center;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  width: 100%;
+  background-color: #212121;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+}
+
+.background {
+  background-image: url(./assets/wall-e.jpg);
+  filter: contrast(0.5);
+  z-index: -1;
+
+  position: absolute;
+  width: 100%;
+  inset: 0;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: clamp(6rem, 30vw, 24rem);
+  font-family: "Monoton", cursive;
+}
+
+h1::after {
+  content: "error";
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: clamp(0.8rem, 15vw, 4rem);
+}
+
+button {
+  text-transform: uppercase;  
+  background-color: #8257e6;
+  border: none;
+  cursor: pointer;
+  width: 20rem;
+  margin: 0 auto;
+  height: 7vh;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button:hover{
+  background-color: #714dc4;
+}
+
+footer {
+  height: 5vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #212121;
+}
+
+footer h4,
+footer p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+footer a {
+  text-decoration: none;
+  margin-left: 0.5rem;
+  font-family: "Dela Gothic One", cursive;
+  color: #8257e6;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    align-items: flex-start;
+    padding: 2.5rem;
+  }
+}
