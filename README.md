@@ -12,7 +12,7 @@
 | Dia 03  | Criar um botão animado | :white_check_mark:| [demo](https://21days-rocket-seat-day003.vercel.app/) |
 | Dia 04  | Criar uma calculadora | :white_check_mark: | [demo](https://21days-rocketseat-day04-calculator.vercel.app/) |
 | Dia 05  | Desenvolver uma pagina que exiba o erro 404 | :white_check_mark: | [demo](https://21days-rocketseat-404error.vercel.app/) |
-| Dia 06  | Criar um Card com Glassmorphism | :white_check_mark: | [demo](https://card-glassmorphism-delta.vercel.app/#) |
+| Dia 06  | Criar um Card com Glassmorphism | :white_check_mark: | [demo](https://cardprofile.vercel.app/) |
 | Dia 07  | Desenvolver um contador de tempo |
 
 
