@@ -7,7 +7,7 @@
 
 | Projeto | Descrição | Done | Demo |
 | --- | --- | --- | --- |
-| Dia 01  | Criar um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código | :white_check_mark:| 
+| Dia 01  | Criar um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código | :white_check_mark:| [demo](https://github.com/william-esteves/21days-RocketSeat)
 | Dia 02  | Fazer um Hello World! customizado | :white_check_mark:| [demo](https://21days-rocket-seat-ho0ggcubt-william-esteves.vercel.app/) |
 | Dia 03  | Criar um botão animado | :white_check_mark:| [demo](https://21days-rocket-seat-day003.vercel.app/) |
 | Dia 04  | Criar uma calculadora | :white_check_mark: | [demo](https://21days-rocketseat-day04-calculator.vercel.app/) |
