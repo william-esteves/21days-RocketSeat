@@ -13,7 +13,20 @@
 | Dia 04  | Criar uma calculadora | :white_check_mark: | [demo](https://21days-rocketseat-day04-calculator.vercel.app/) |
 | Dia 05  | Desenvolver uma pagina que exiba o erro 404 | :white_check_mark: | [demo](https://21days-rocketseat-404error.vercel.app/) |
 | Dia 06  | Criar um Card com Glassmorphism | :white_check_mark: | [demo](https://cardprofile.vercel.app/) |
-| Dia 07  | Desenvolver um contador de tempo |
+| Dia 07  | Desenvolver um contador de tempo | :white_check_mark: | [demo](https://contadortempo-js.vercel.app/) |
+
+
+## Desafios (parte 2)
+
+| Projeto | Descrição | Done | Demo |
+| --- | --- | --- | --- |
+| Dia 08  | Desenvolver um toggle que altere para o tema escuro | 
+| Dia 09  | Criar animação de loading |
+| Dia 10  | Utiliza a biblioteca Particle.JS| 
+| Dia 11  | Criar layout de formulario de login | 
+| Dia 12  | Desenvolver uma galeria de imagens | 
+| Dia 13  | Criar um menu responsivo | 
+| Dia 14  | Criar formulário de quizz | 
 
 
 
