@@ -20,7 +20,7 @@
 
 | Projeto | Descrição | Done | Demo |
 | --- | --- | --- | --- |
-| Dia 08  | Desenvolver um toggle que altere para o tema escuro | 
+| Dia 08  | Desenvolver um toggle que altere para o tema escuro | :white_check_mark: | [demo](https://toggle-button.vercel.app/)
 | Dia 09  | Criar animação de loading |
 | Dia 10  | Utiliza a biblioteca Particle.JS| 
 | Dia 11  | Criar layout de formulario de login | 
