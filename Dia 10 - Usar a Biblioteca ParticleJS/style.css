@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Monoton&display=swap");
+
+:root {
+  font-size: 62.5%;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+canvas {
+  display: block;
+}
+
+#particles-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  background: #FF416C;  
+  background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  
+  background: linear-gradient(to right, #FF4B2B, #FF416C);  
+
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.54);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1.6rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  font-family: "Dela Gothic One", cursive;
+  min-width: 30rem;
+  text-align: center;
+  width: clamp(32rem, 40vw, 44rem);
+}
+
+.card img {
+  border-radius: 80%;
+  border: 6px solid #5f5c5c;
+  margin: 2rem auto;
+  padding: .5rem;
+  width: clamp(10rem, 30vw, 16rem);
+}
+
+.card p {
+  color: #2d2d2a97;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card h3 {
+  color: #5f5c5c;
+}
+
+hr {
+  border-color: #135d571b;
+  margin: 1.4rem auto;
+  width: 80%;
+}
+
+.socials {
+  align-items: center;
+  display: flex;
+  gap: 0 4rem;
+  height: 4vh;
+  justify-content: center;
+  margin: 2.4rem auto;
+  width: 100%;
+  color: #5f5c5c;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card i {
+  background-color: #fdfdfd;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 2.4rem;
+  padding: 1.4rem;
+}
+
+.card i:hover {
+  transition: ease 400ms;
+  color: #ff4b2f;
+}
