@@ -28,6 +28,21 @@
 | Dia 13  | Criar um menu responsivo | :white_check_mark: | [demo](https://menu-animated-phi.vercel.app/)
 | Dia 14  | Criar formulário de quizz | :white_check_mark: | [demo](https://quizz-html-css.vercel.app/)
 
+## Desafios (parte 3)
+
+| Projeto | Descrição | Done | Demo |
+| --- | --- | --- | --- |
+| Dia 15  | Criar uma vitrine de produtos(ecommerce ficticio) | :white_check_mark:| [demo](https://github.com/william-esteves/21days-RocketSeat)
+| Dia 16  | Criar site alguma api publica | :white_check_mark:| [demo]() |
+| Dia 17  | Criar um site que capture e exiba teclas ativadas no teclado  animado | :white_check_mark:| [demo]() |
+| Dia 18  | Criar um gerador de senhas | :white_check_mark: | [demo]() |
+| Dia 19  | Site que gere imagens aleatorias com a API do unsplash | :white_check_mark: | [demo]() |
+| Dia 20  | Site Emoji Picker | :white_check_mark: | [demo]() |
+| Dia 21  | Pagina de portfolio | :white_check_mark: | [demo]() |
+
+
+
+
 
 
 
