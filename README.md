@@ -32,13 +32,13 @@
 
 | Projeto | Descrição | Done | Demo |
 | --- | --- | --- | --- |
-| Dia 15  | Criar uma vitrine de produtos(ecommerce ficticio) | :white_check_mark:| [demo](https://github.com/william-esteves/21days-RocketSeat)
-| Dia 16  | Criar site alguma api publica | :white_check_mark:| [demo]() |
-| Dia 17  | Criar um site que capture e exiba teclas ativadas no teclado  animado | :white_check_mark:| [demo]() |
-| Dia 18  | Criar um gerador de senhas | :white_check_mark: | [demo]() |
-| Dia 19  | Site que gere imagens aleatorias com a API do unsplash | :white_check_mark: | [demo]() |
-| Dia 20  | Site Emoji Picker | :white_check_mark: | [demo]() |
-| Dia 21  | Pagina de portfolio | :white_check_mark: | [demo]() |
+| Dia 15  | Criar uma vitrine de produtos(ecommerce ficticio) | |
+| Dia 16  | Criar site alguma api publica | |
+| Dia 17  | Criar um site que capture e exiba teclas ativadas no teclado  animado | |
+| Dia 18  | Criar um gerador de senhas | |
+| Dia 19  | Site que gere imagens aleatorias com a API do unsplash | | 
+| Dia 20  | Site Emoji Picker | :white_check_mark: |  |
+| Dia 21  | Pagina de portfolio | :white_check_mark: |  |
 
 
 
