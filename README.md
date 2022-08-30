@@ -26,7 +26,7 @@
 | Dia 11  | Criar layout de formulario de login | :white_check_mark: | [demo](https://login-form-two-psi.vercel.app/)
 | Dia 12  | Desenvolver uma galeria de imagens | :white_check_mark: | [demo](https://wallpaper-gallery.vercel.app/)
 | Dia 13  | Criar um menu responsivo | :white_check_mark: | [demo](https://menu-animated-phi.vercel.app/)
-| Dia 14  | Criar formulário de quizz | :white_check_mark: | [demo] (https://quizz-html-css.vercel.app/)
+| Dia 14  | Criar formulário de quizz | :white_check_mark: | [demo](https://quizz-html-css.vercel.app/)
 
 
 
