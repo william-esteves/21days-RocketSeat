@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Monoton&display=swap");
+
+body {
+	font-size: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-color: #333;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+header {
+	color: #fff;
+	display: flex;
+	font-size: 1rem;
+	height: 5vh;
+	justify-content: space-between;
+}
+
+h1 {
+	color: #8257e6;
+	font-family: "Dela Gothic One", cursive;
+	padding: 2rem;
+}
+
+#quiz {
+	align-items: left;
+	background-color: #d1d1d1;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 4rem 8rem;
+	text-align: left;
+}
+
+h4 {
+	color: #0f0f0f;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1.3rem;
+}
+
+.answers {
+	margin-bottom: 20px;
+	font-size: 1.2rem;
+}
+
+input {
+	accent-color: #8257e6;
+	height: 1.4rem;
+	width: 1.8rem;
+}
+
+#submit {
+	background-color: #8257e6;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 1.4rem;
+	margin: 4rem auto 1rem;
+	padding: 2rem;
+	width: 32rem;
+}
+
+#submit:hover {
+	background-color: #563998;
+}
+
+#results {
+	color: #fff;
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 2rem;
+}
