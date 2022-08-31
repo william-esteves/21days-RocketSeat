@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;900&display=swap');
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.6rem;
+  min-width: 30rem;
+  scroll-behavior: smooth;
+  width: 100vw;
+}
+
+.header {
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  color: #2d2d2a;
+  display: flex;
+  font-weight: bold;
+  height: 8vh;
+  justify-content: space-between;
+  padding: 0 2rem;
+  width: 100vw;
+}
+
+.header__icons i {
+  color: #ff7a17;
+  font-size: 2.4rem;
+  padding-right: 1rem;
+}
+
+.logo {
+  margin-right: 1.2rem;
+  width: 4.4rem;
+}
+
+.hero img {
+  height: 40vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.content {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  width: 100%;
+}
+
+.content__txt {
+  font-size: 2rem;
+  max-width: 1200px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.content__txt h3,
+.location__txt {
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin: 3.2rem auto;
+  text-align: center;
+}
+
+.content__txt span,
+.contact__txt {
+  color: #ff7a17;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+.vinils {
+  align-items: center;
+  border-radius: .6rem;
+  border: .2rem solid #ff7c1734;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 2rem;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 2.4rem;
+}
+
+.vinil {
+  min-height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+.vinil__img {
+  border-radius: .6rem;
+  height: 32rem;
+  object-fit: cover;
+  transition: all 600ms ease-in-out;
+  width: 100%;
+}
+
+.vinil__card {
+  background-color: #8b8b8a23;
+  border-radius: .3rem;
+  border: none;
+  padding: 1.2rem;
+  transition: all 600ms ease-in-out;
+}
+
+.vinil__card h3 {
+  transition: all 600ms ease-in-out;
+}
+
+.vinil__card:hover {
+  background-color: #ff7a17;
+}
+
+.vinil__card:hover img {
+  background-color: #ff7a17;
+  transform: scale(1.02);
+}
+
+.vinil__card:hover h3 {
+  color: #fff;
+
+}
+
+.vinil__card--txt {
+  line-height: 80%;
+  margin-top: 1.8rem;
+
+}
+
+.vinil__card--price {
+  color: #bb590e;
+  font-size: 3.8rem;
+  font-weight: 900;
+  letter-spacing: .4rem;
+  margin-top: 1.4rem;
+  position: relative;
+  text-align: center;
+}
+
+.vinil__card--price::before {
+  bottom: 24px;
+  color: #2d2d2a;
+  content: "R$";
+  font-size: small;
+  left: 0;
+  position: absolute;
+}
+
+.vinil__button {
+  background-color: #ff7a17;
+  border-radius: .3rem;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  margin: 4rem auto 0;
+  min-height: 5vh;
+  transition: all 600ms ease-in-out;
+  width: 32rem;
+}
+
+.vinil__button:hover {
+  background-color: #ff7c17cc;
+}
+
+.location__info {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.location__info i {
+  font-size: 1.8rem;
+  margin-right: 1.4rem;
+  color: #ff7a17;
+}
+
+
+.footer {
+  align-items: center;
+  background-color: #2d2d2a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 36vh;
+  padding: 4rem;
+  text-align: center;
+  width: 100vw;
+}
+
+.footer__box--logo h4 {
+  font-size: 2.8rem;
+  margin-top: 1.4rem;
+}
+
+.footer i {
+  background-color: #ff7a17;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 2.4rem;
+  padding: 1.4rem;
+  transition: all 600ms ease-in-out;
+}
+
+.footer i:hover {
+  background-color: #ff7c17c5;
+  color: rgba(218, 214, 214, 0.836);
+}
+
+.footer__social {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.4rem;
+  width: 20rem;
+}
+
+.footer__social--list {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  list-style: none;
+}
+
+.warning {
+  color: #ffffff83;
+  display: block;
+  margin-top: 2rem;
+}
+
+.warning a {
+  color: #a385db;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: all 600ms ease-in-out;
+}
+
+.warning a:hover {
+  color: #a385dbc0;
+}
+
+.float__button {
+  border-radius: 50%;
+  border: none;
+  bottom: 0;
+  margin: 2rem 9rem;
+  position: fixed;
+  right: 0;
+  scroll-behavior: smooth;
+}
+
+.float__button--mobile {
+  display: none;
+}
+
+.mention {
+  color: #fcfcfcc9;
+  font-size: .85rem;
+  text-decoration: none;
+  transition: all 600ms ease-in-out;
+}
+
+.mention:hover {
+  color: #a385dbc0;
+}
+
+@media screen and (max-width: 768px) {
+  .float__button {
+    display: none;
+  }
+
+  .float__button--mobile {
+    color: #bb590e;
+    display: block;
+    text-decoration: none;
+  }
+}
