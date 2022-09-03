@@ -35,7 +35,7 @@
 | Dia 15  | Criar uma vitrine de produtos(ecommerce ficticio) | :white_check_mark: | [demo](https://upbeat-kappa.vercel.app/)
 | Dia 16  | Criar site alguma api publica | :white_check_mark: | [demo](https://consulta-cep-psi.vercel.app/)
 | Dia 17  | Criar um site que capture e exiba teclas acionadas no teclado | :white_check_mark: | [demo](https://keyboard-events-inky.vercel.app/)
-| Dia 18  | Criar um gerador de senhas | |
+| Dia 18  | Criar um gerador de senhas | :white_check_mark: | [demo](https://pass-generator-two.vercel.app/)
 | Dia 19  | Site que gere imagens aleatorias com a API do unsplash | | 
 | Dia 20  | Site Emoji Picker | |
 | Dia 21  | Pagina de portfolio |   |
