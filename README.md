@@ -1,8 +1,8 @@
 # 21 Dias de Código <a href="https://www.rocketseat.com.br/"> <img src="https://github.com/william-esteves/21days-RocketSeat/blob/main/assets/rocketseat.svg"></a>
 
-21 dias onde serei desafiado pela RocketSeat à desenvolver mini projetos, sendo um projeto por dia
+Programa oferecido pela escola RocketSeat. Constitui de um desafio com duração de 21 dias, sendo o aluno desafiado à desenvolver um mini projeto  Front-End, todos os dias. 
 
-
+# 
 ## Desafios (parte 1)
 
 | Projeto | Descrição | Done | Demo |
@@ -38,7 +38,7 @@
 | Dia 18  | Criar um gerador de senhas | :white_check_mark: | [demo](https://pass-generator-two.vercel.app/)
 | Dia 19  | Criar um site que gere imagens aleatórias com a API do Unsplash | | 
 | Dia 20  | Criar um site Emoji Picker (selecionar e copiar/colar) | |
-| Dia 21  | Desafio final - Criar com os desafios em forma de portfólio |   |
+| Dia 21  | Desafio final - Criar um site com os desafios em forma de portfólio |   |
 
 
 
