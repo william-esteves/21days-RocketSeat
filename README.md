@@ -32,13 +32,13 @@
 
 | Projeto | Descrição | Done | Demo |
 | --- | --- | --- | --- |
-| Dia 15  | Criar uma vitrine de produtos(ecommerce ficticio) | :white_check_mark: | [demo](https://upbeat-kappa.vercel.app/)
-| Dia 16  | Criar site alguma api publica | :white_check_mark: | [demo](https://consulta-cep-psi.vercel.app/)
+| Dia 15  | Criar uma vitrine de produtos (e-commerce fictício) | :white_check_mark: | [demo](https://upbeat-kappa.vercel.app/)
+| Dia 16  | Criar um site usando alguma api pública | :white_check_mark: | [demo](https://consulta-cep-psi.vercel.app/)
 | Dia 17  | Criar um site que capture e exiba teclas acionadas no teclado | :white_check_mark: | [demo](https://keyboard-events-inky.vercel.app/)
 | Dia 18  | Criar um gerador de senhas | :white_check_mark: | [demo](https://pass-generator-two.vercel.app/)
-| Dia 19  | Site que gere imagens aleatorias com a API do unsplash | | 
-| Dia 20  | Site Emoji Picker | |
-| Dia 21  | Pagina de portfolio |   |
+| Dia 19  | Criar um site que gere imagens aleatórias com a API do Unsplash | | 
+| Dia 20  | Criar um site Emoji Picker (selecionar e copiar/colar) | |
+| Dia 21  | Desafio final - Criar com os desafios em forma de portfólio |   |
 
 
 
