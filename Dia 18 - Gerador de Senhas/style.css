@@ -1,0 +1,139 @@
+  @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Monoton&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+  :root {
+    font-size: 62.5%;
+
+    --color-dark: #272727;
+    --primary-color: #1991af;
+    --color-light: #eee;
+    --color-light-second: #a377f3;
+    --border-color: rgba(221, 221, 221, 0.082);
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    font-family: "Dela Gothic One", cursive;
+    min-width: 320px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    justify-content: center;
+    margin: 2rem auto 0;
+    text-align: center;
+  }
+
+  .header__title {
+    font-size: clamp(2rem, 4vw, 4.4rem);
+    text-align: center;
+  }
+
+  .header__p {
+    color: var(--primary-color);
+  }
+
+  .header__underline {
+    border-color: var(--border-color);
+    margin: 0 auto;
+    max-width: 600px;
+    width: 90%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 80vh;
+    text-align: center;
+    width: 36rem;
+  }
+
+  .content__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: .3rem;
+  }
+
+  .content__p {
+    color: var(--primary-color);
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .content__display {
+    border: none;
+    color: var(--white-color);
+    font-size: 3rem;
+  }
+
+  input,
+  button {
+    accent-color: var(--primary-color);
+    background-color: var(--color-dark);
+    border: var(--border-color) 1px solid;
+    height: 6vh;
+    margin: 1rem auto 0;
+    text-align: center;
+    width: 32rem;
+  }
+
+  .content__btn {
+    background-color: var(--primary-color);
+    border-radius: .3rem;
+    border: none;
+    color: var(--color-light);
+    font-family: "Dela Gothic One", cursive;
+    outline: none;
+    font-size: 1.6rem;
+  }
+
+  .content__password--input {
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+  }
+
+.content__clear--btn{
+  border: var(--primary-color) 1px solid;
+  font-family: "Dela Gothic One", cursive;
+  color: var(--color-light);
+  cursor: pointer;
+}
+
+  .content__refresh {
+    color: var(--color-light-second);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin: 2.5rem auto;
+  }
+
+  .footer {
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    height: 5vh;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer__link {
+    color: #a377f3;
+    font-family: "Dela Gothic One", cursive;
+    text-decoration: none;
+  }

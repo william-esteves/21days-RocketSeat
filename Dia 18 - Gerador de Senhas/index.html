@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5b01f06b80.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="assets/key.png" type="image/x-icon">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">Password Generator</h1>
+    <p class="header__p"> with Javascript</p>
+  </header>
+  <hr class="header__underline">
+  <main class="content">
+    <h3 class="content__title">how many chars?</h3>
+    <p class="content__p">(min 10 and max 30 )</p>
+
+    <div class="content__range--box">
+      <input type="text" class="content__display" id="display" value="10" oninput="passLenght.value=value"
+        onchange="passLenght.value=value">
+      <input type="range" id="passLenght" name="passLenght" value="0" min="10" max="30" oninput="display.value=value"
+        onchange="display.value=value">
+    </div>
+
+    <input type="text" placeholder="..." id="password" readonly="" class="content__password--input">
+    <button class="content__btn" id="btn" onclick="getPassword()">Generate pass</button>
+    <button type="button" onclick="Refresh()" class="content__clear--btn">Clear</button>
+
+    <div class="content__refresh" id="btn-refresh" onclick="clipboardBtn()">
+      <i class="fa-regular fa-clipboard"><span class="content__refresh"> copy</span></i>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <small class="footer__txt"> created by &#183; <a href="https://github.com/william-esteves" target="_blank" referrerpolicy="no-referrer"
+        class="footer__link">William Esteves</a></small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
