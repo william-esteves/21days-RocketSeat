@@ -36,9 +36,9 @@ Programa oferecido pela escola RocketSeat. Constitui de um desafio com duração
 | Dia 16  | Criar um site usando alguma api pública | :white_check_mark: | [demo](https://consulta-cep-psi.vercel.app/)
 | Dia 17  | Criar um site que capture e exiba teclas acionadas no teclado | :white_check_mark: | [demo](https://keyboard-events-inky.vercel.app/)
 | Dia 18  | Criar um gerador de senhas | :white_check_mark: | [demo](https://pass-generator-two.vercel.app/)
-| Dia 19  | Criar um site que gere imagens aleatórias com a API do Unsplash | | 
-| Dia 20  | Criar um site Emoji Picker (selecionar e copiar/colar) | |
-| Dia 21  | Desafio final - Criar um site com os desafios em forma de portfólio |   |
+| Dia 19  | Criar um site que gere imagens aleatórias com a API do Unsplash | :white_check_mark: |  [repo](https://github.com/william-esteves/21days-RocketSeat/tree/main/Dia%2019%20-%20Imagens%20com%20Unsplash)
+| Dia 20  | Criar um site Emoji Picker (selecionar e copiar/colar) | :white_check_mark: | [demo](https://emoji-picker-ochre.vercel.app/)
+| Dia 21  | Desafio final - Criar um site com os desafios em forma de portfólio |  | 
 
 
 
