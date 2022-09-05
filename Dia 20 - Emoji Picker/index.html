@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js"></script>
+    <link rel="shortcut icon" href="assets/heart-eyes.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <title>Emoji Picker</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header__title">Emoji Picker 😍</h1>
+    </header>
+    <main class="content">
+        <emoji-picker id="emoji">
+        </emoji-picker>
+        <input type="text" id="inputEmoji" class="input__emoji" readonly placeholder="pick an emoji!">
+        <button class="btn" id="btn-copy" onclick="clipboardBtn()">copy emoji</button>
+        <button class="btn btn__2" id="btnRefresh" onclick="Refresh()">pick another</button>
+    </main>
+    <footer>
+        <small class="warning">
+            <p>created by <a href="https://www.linkedin.com/in/williamesteves/" target="_blank" rel=”noopener
+                    noreferrer”>William
+                    Esteves</a>
+            </p>
+            <a href="https://www.flaticon.com/free-icons/vinyl" title="vinyl icons" class="mention">Vinyl icons created
+                by
+                Roundicons - Flaticon</a>
+        </small>
+    </footer>
+    <script src="/inputEmoji.js"></script>
+</body>
+
+</html>
