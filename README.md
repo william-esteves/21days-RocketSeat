@@ -38,7 +38,7 @@ Programa oferecido pela escola RocketSeat. Constitui de um desafio com duração
 | Dia 18  | Criar um gerador de senhas | :white_check_mark: | [demo](https://pass-generator-two.vercel.app/)
 | Dia 19  | Criar um site que gere imagens aleatórias com a API do Unsplash | :white_check_mark: |  [repo](https://github.com/william-esteves/21days-RocketSeat/tree/main/Dia%2019%20-%20Imagens%20com%20Unsplash)
 | Dia 20  | Criar um site Emoji Picker (selecionar e copiar/colar) | :white_check_mark: | [demo](https://emoji-picker-ochre.vercel.app/)
-| Dia 21  | Desafio final - Criar um site com os desafios em forma de portfólio |  | 
+| Dia 21  | Desafio final - Criar um site com os desafios em forma de portfólio | :white_check_mark: | [demo](https://williamesteves.vercel.app/)
 
 
 
