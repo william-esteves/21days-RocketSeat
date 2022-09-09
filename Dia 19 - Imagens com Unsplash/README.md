@@ -12,4 +12,4 @@ Caso queira alterar o projeto, utilize a maravilhosa documentação do Unsplash 
 
 ### Print em produção em servidor pessoal
 
-<img src="https://i.imgur.com/JVAnuBW.gif">
+<img src="https://github.com/william-esteves/21days-RocketSeat/blob/2aa60569edaf8ed6acce2b2c1c231730bb5fb1c4/Dia%2019%20-%20Imagens%20com%20Unsplash/assets/3miEZtm%20-%20Imgur.gif">
